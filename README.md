@@ -1,6 +1,10 @@
 # SVGDreamer: Text Guided SVG Generation with Diffusion Model
 
+<div align="center" style="line-height: 1;">
+
 [![CVPR 2024](https://img.shields.io/badge/CVPR%202024-Paper-4169E1?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.16476) [![arXiv](https://img.shields.io/badge/arXiv-2312.16476-8A2BE2?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.16476) [![Project Website](https://img.shields.io/badge/Website-Project%20Page-4682B4?style=for-the-badge&logo=github&logoColor=white)](https://ximinng.github.io/SVGDreamer-project/) [![English Blog](https://img.shields.io/badge/Blog-English-00CED1?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/blog/xingxm/svgdreamer) [![中文博客](https://img.shields.io/badge/博客-中文-1E90FF?style=for-the-badge&logo=zhihu&logoColor=white)](https://zhuanlan.zhihu.com/p/687525994)
+
+</div>
 
 This repository contains the official implementation of our CVPR 2024 paper, "SVGDreamer: Text-Guided SVG Generation
 with Diffusion Model." The method leverages a diffusion-based approach to produce high-quality SVGs guided by text
@@ -60,7 +64,7 @@ If you prefer manual setup, download the model from Hugging Face:
 
 The model will be stored at:
 
-📁 Default Path: `/home/user/.cache/huggingface/hub/models--stabilityai--stable-diffusion-2-1-base`
+📁 Default Path: `~/.cache/huggingface/hub/models--stabilityai--stable-diffusion-2-1-base`
 
 ## 🔥 Quickstart: synthesize **6** SVGs at once
 
@@ -255,7 +259,7 @@ We gratefully thank the authors for their wonderful works.
 If you use this code for your research, please cite the following work:
 
 ```
-@InProceedings{svgdreamer_xing_2023,
+@InProceedings{xing2024svgdreamer,
     author    = {Xing, Ximing and Zhou, Haitao and Wang, Chuang and Zhang, Jing and Xu, Dong and Yu, Qian},
     title     = {SVGDreamer: Text Guided SVG Generation with Diffusion Model},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},

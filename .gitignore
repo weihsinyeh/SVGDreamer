@@ -171,3 +171,4 @@ lightning_logs/*
 /tmp_select/*
 /logs/
 /logs/*
+_Record.md

@@ -320,7 +320,7 @@ class Painter(DiffVGState):
                 select_path_ids_by_opc = get_keys_below_threshold(opacity_record_, opacity_threshold)
 
                 if len(select_path_ids_by_opc) > 0:
-                    print("-> opacity_record: ", [f"{k}: {v:.3f}" for k, v in opacity_record_.items()])
+                    # print("-> opacity_record: ", [f"{k}: {v:.3f}" for k, v in opacity_record_.items()])
                     print("select_path_ids_by_opc: ", select_path_ids_by_opc)
                 else:
                     stats_np = np.array(list(opacity_record_.values()))
@@ -335,7 +335,7 @@ class Painter(DiffVGState):
                         select_path_ids_by_area.append(shape.id)
 
                 if len(select_path_ids_by_area) > 0:
-                    print("-> area_records: ", ['%.2f' % i for i in area_records])
+                    # print("-> area_records: ", ['%.2f' % i for i in area_records])
                     print("select_path_ids_by_area: ", select_path_ids_by_area)
                 else:
                     stats_np = np.array(area_records)
@@ -349,7 +349,7 @@ class Painter(DiffVGState):
                 select_path_ids_by_opc = get_keys_below_threshold(opacity_record_, opacity_threshold)
 
                 if len(select_path_ids_by_opc) > 0:
-                    print("-> opacity_record: ", [f"{k}: {v:.3f}" for k, v in opacity_record_.items()])
+                    # print("-> opacity_record: ", [f"{k}: {v:.3f}" for k, v in opacity_record_.items()])
                     print("select_path_ids_by_opc: ", select_path_ids_by_opc)
                 else:
                     stats_np = np.array(list(opacity_record_.values()))
